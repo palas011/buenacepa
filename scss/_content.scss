@@ -1,0 +1,93 @@
+//general
+article p{
+    color: $bg-white;
+}
+
+.tituloPrincipal{
+    font-family: $fontMain;
+    font-size: $fontSizeBig;
+    text-align: center;
+    padding: 10rem;
+}
+
+.breadcrum__bg{
+    background-color: $bg-white;
+}
+
+  //BT WHATSAPP
+.btn-whatsapp {
+    display:block;
+    color: $bg-white;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+  }
+    .btn-whatsapp:hover{
+        opacity: 0.5;
+    }
+
+//SERVICIOS 
+.cards{    
+    background-color: $bg-succes;
+}
+
+
+//NOSOTROS
+.bloque__texto{
+    font-family: $fontMain2;
+}
+.contenedor{
+    margin: $marginCentro;
+    width: $w-75;
+} 
+    .contenedor__bgimagen{
+        background-image: url(../media/wall_seccion_nosotros.jpg);
+    }     
+    .contenedor__section{
+        margin: $marginCentro;       
+    }
+
+//FIN NOSOTROS
+
+//CONTACTO
+.form{
+    border-radius: $b-radius;
+    @include gradient(bottom, $comb2);   
+}
+    .form__div{
+        padding: $padding;
+    }
+        .form__input--width{
+            width: $w-100;
+        }
+        .form__label--font{
+            font-family: $fontMain;
+        }
+        .form__div__btn{
+            width: $w-25;
+        }
+            .form__div__btn--bg{
+                height: 50px;
+                border-radius: $b-radius;
+                background-color: $bg-succes;
+                color:$bg-white;
+            }
+//FIN
+
+//CATEGORIAS
+
+.btn__categoria :hover{
+    opacity: 0.9;
+}
+
+.titulo__categorias{
+    color: $bg-white;
+    font-size: 1.8rem;
+    //text-shadow: 1px 1px 1px $bg-dark;
+}
+
+

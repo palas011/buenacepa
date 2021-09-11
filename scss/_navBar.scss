@@ -1,0 +1,49 @@
+.nav__bg__buenaCepa{
+    background-image: linear-gradient($bg-white,$bg-white);
+}
+
+nav ul{
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    text-decoration: none
+}
+    nav ul li {
+        font-family:$fontMain;
+    }
+
+    nav img{
+        width: 200px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: $bg-buenaCepa;
+        font-size: $fontSizeBig;
+    }
+
+    nav ul ul a{
+        text-decoration: none;
+        color: $bg-buenaCepa;
+        font-size: $fontSizeBig;
+    }
+
+.nav__ul__li_decoration{
+    text-decoration: none;
+    color: $bg-buenaCepa;
+    font-size: $fontSizeBig;
+}
+
+.publi__nav{
+        background-image: url(../media/publi_top.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .publi__nav__texto{
+        font-size: 15px;
+        text-align: center;
+    }
+.nav__icons__redes{
+    color: $bg-buenaCepa;
+}
